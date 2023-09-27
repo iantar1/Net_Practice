@@ -1,0 +1,82 @@
+- Network and communication
+- IP and IPv4
+- Classes (128, 192, 224, 240)
+- Drawback of classful addressing -> CIDR (Classless Inter-Domain) -> Subnetting
+- Cast types : (Unicast, Multicast, Broadcast(Limited, Directed), Anycast)
+- Switch, Router
+- Private and Public IP addresses
+- Communication between two devices (Different arch)
+- OSI Model (Application, Presentation, Session, Transport, Network, Data-Link, Physical)
+- TCP/IP Model (Application, Transport, Network, Data-Link, Physical)
+
+-- OSI Model
+*Browser* -> data
+    - Application Layer (in) Request pages
+    - Presentation Layer : Translation, Data Compression, Encry/Decry
+    - Session Layer : Authentication, Authorization(permissions), Session management
+        (Image File, Text File, create other sessions)
+
+----------------------------------------------------------------------------------------------
+
+Transport Layer : Segmentation, Error Control (ARQ), FLow Control -> TCP segment, UDP Datagrm
+    ... Segment format (Seq Num, Port Num, checksum[ACK])
+     UDP and TCP
+
+    Network Layer : Logical Addressing(ips , ipd), Path determination -> IP packet
+
+    Data Link Layer : Physical addressing -> Ethernet frame
+    -- Media access control (MAC address)
+
+    Physical Layer -> Ethernet frame -> Binary message -> Signals
+
+-- TCP/IP Model
+
+    - Application Layer -> Data
+
+    - Tranport Layer : Segmentation, Error Control (ARQ), FLow Control -> TCP segment, UDP Datagrm
+        ... Segment format (Seq Num, Port Num, checksum[ACK])
+        ... UDP, TCP
+
+        ::: Connection establishment ::: Three-Way TCP Connection Handshake
+
+        (Sender ) RST --------------------> (Reciever)
+                   <---------------------ACK
+                  ACK---------------------->
+
+        ::: Data Transfer :::
+            - Ordered-data transfer . Seq Num
+            - Error-free data transfer . checksum
+            - Retransmission of lost segments . ARQ
+            - Discrading duplicate packets . Seq Num
+            - Congestion throttling or flow control . Timer, Maintain the speed
+
+        ::: Connection termination ::: Four-Way TCP Connection Handshake
+
+        (Sender ) FIN --------------------> (Reciever)
+                   <---------------------ACK
+                   <---------------------FIN
+                   ---------------------->ACK
+
+    - Network Layer : IP Address -> IP packet
+        . Logical Addresing(IPs, IPd)
+        . Path Determination
+
+        - Data Link Layer -> Ethernet Frame
+        MAC Sub Layer (Medium Access Control):
+            * ARP (Address Resolution Protocol) :: (IP -> MAC)
+            * Carrier Sende Multiple Access/ Collision Detection [CSMA/CD]
+        LLC Sub Layer
+            * Error Detection ... (Error checking data) """"????????????????????""""
+            * Retransmission : Automatic Repeat Request (ARQ)
+            * Re-size the Ip packets to fit frame
+
+    Physical : Frame -> Binary message -> Signals (Electrical, Light, Radio)
+
+
+1.1.1.0/24
+
+packet[ips, ipd] -> [MACs, MACd] Frame
+
+packet[ips, ipd][MACs, MACr1] -> packet[ips, ipd][MACs, MACr2] -> frame[ips, ipd][MACs, MACd]
+
+Network1 ds     R1[IPr1,MACr1]   R2[IPr2, MACr2]   Network2 dd
