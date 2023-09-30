@@ -2,14 +2,6 @@
 
 ![Alt Text](networking1.jpg)
 
-This project is a general practical exercise to let you discover networking.
-
-::to follow:
-    ->Networking 101 series https://www.youtube.com/playlist?list=PLMTCTd3b8IdLkjpCLrxbFKTY6CTlaMPco
-    ->Networking Fundamental https://www.javatpoint.com/fundamentals-of-computer-networking
-    ->Free ccna playlist https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P
-    ->Networking tutorial https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW
-
 
 * what is a Network ?
     is a connection between tow or more devices.
@@ -76,3 +68,10 @@ This project is a general practical exercise to let you discover networking.
     ->
     ->
 
+
+This project is a general practical exercise to let you discover networking.
+
+* Good youtub playlist:
+    ->Networking 101 series https://www.youtube.com/playlist?list=PLMTCTd3b8IdLkjpCLrxbFKTY6CTlaMPco
+    ->Free ccna playlist https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P
+    ->Networking tutorial https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW
