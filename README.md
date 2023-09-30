@@ -54,24 +54,24 @@
 
 * OSI (Open Systems Interconnection) Module:
 
-    ->
-    ->
-    ->
-    ->
-    ->
-    ->
-    ->
+    + 
+    + 
+    + 
+    + 
+    + 
+    + 
+    + 
 
 * IP/TCP Module:
-    ->
-    ->
-    ->
-    ->
+    + 
+    + 
+    + 
+    + 
 
 
 This project is a general practical exercise to let you discover networking.
 
 * Good youtub playlist:
-    ->Networking 101 series https://www.youtube.com/playlist?list=PLMTCTd3b8IdLkjpCLrxbFKTY6CTlaMPco
-    ->Free ccna playlist https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P
-    ->Networking tutorial https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW
+    + Networking 101 series https://www.youtube.com/playlist?list=PLMTCTd3b8IdLkjpCLrxbFKTY6CTlaMPco
+    + Free ccna playlist https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P
+    + Networking tutorial https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW
