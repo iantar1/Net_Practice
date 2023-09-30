@@ -1,6 +1,6 @@
 # Net_Practice
 
-![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Frosar1721.wordpress.com%2Funit-1-the-online-world-2%2Funit-11-computer-networks%2F&psig=AOvVaw3md2Ih1qV27RUpKO2NMBda&ust=1696169459034000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOC1leTB0oEDFQAAAAAdAAAAABAb)
+![Alt Text](networking1.jpg)
 
 This project is a general practical exercise to let you discover networking.
 
