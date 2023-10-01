@@ -72,9 +72,11 @@
 
 
 * **OSI (Open Systems Interconnection) Module:**
+    ![Alt Text](osi_model.jpg)
 
-    + 
-    + 
+    OSI Module used to understand how data is transford from one computer to anouthe in a computer network.
+    + **Application layer:**
+    + **Presentation Layer:**
     + 
     + 
     + 
@@ -86,6 +88,10 @@
     + 
     + 
     + 
+
+* **TCP vs UDP:**
+    + TCP:
+    + UDP:
 
 This project is a general practical exercise to let you discover networking.
 
