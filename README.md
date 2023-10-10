@@ -88,10 +88,13 @@
     ![Alt Text](tcp_ip.png)   
 
     The TCP/IP model is a set of protocols used for communication on the internet
-    + 
-    + 
-    + 
-    + 
+    + Application layer:
+
+    + Transpot Layer:
+
+    + Network Layer :
+
+    + Physical Layer : 
 
 * **TCP vs UDP:**
     + TCP:
