@@ -1,25 +1,13 @@
 # Net_Practice
 
+This project is a general practical exercise to let you discover networking.
+
+
 ![Alt Text](networking1.jpg)
 
 
-* **what is a Network:**
+* **what is a Computer Network:**
     is a connection between tow or more devices.
-
-
-* **how two computers connect:**
-
-
-* **what is data:**
-
-
-* **how the data sends and receives over the network:**
-
-
-* **why we need subneting:**
-
-* **What is an IP Address:**
-
 
 * **What is a Router:**
     + a Router is a hardware component that takes care of routing packets.
@@ -76,33 +64,82 @@
     ![Alt Text](osi_model.jpg)
 
     OSI Module used to understand how data is transford from one computer to anouthe in a computer network.
-    + **Application layer:**
-    + **Presentation Layer:**
-    + 
-    + 
-    + 
-    + 
-    + 
+    + Application Layer (Layer 7):
+        - The Application Layer is the topmost layer and is responsible for user-level applications and services.
+        - It includes a wide range of protocols for various purposes, such as HTTP (for web browsing), FTP (for file transfer), SMTP (for email), and many others.
+        - Application-layer protocols define how data should be formatted, transmitted, and interpreted by applications.
+
+    + Presentation Layer (Layer 6):
+        - The Presentation Layer deals with data translation, encryption, and compression.
+        - It ensures that data from the application layer is properly formatted, encrypted, and decrypted as needed.
+        - Data compression and data format conversions are performed here.
+
+    + Session Layer (Layer 5):
+        - he Session Layer establishes, manages, and terminates sessions (connections) between two devices.
+        - It handles dialog control and synchronization, allowing data exchange between applications.
+        - This layer also manages sessions in which multiple data streams can be interleaved.
+
+    + Transport Layer (Layer 4):
+        - The Transport Layer ensures end-to-end communication between devices on different networks.
+        - It manages data segmentation, error checking, flow control, and end-to-end communication.
+        - Key protocols include Transmission Control Protocol (TCP) and User Datagram Protocol (UDP).
+
+    + Network Layer (Layer 3):
+        - The Network Layer focuses on end-to-end communication and routing data packets between different networks.
+        - It uses logical addressing (IP addresses) to identify devices on different networks.
+        - Key functions include routing, logical addressing, and the handling of packets.
+        - The Internet Protocol (IP) is a common Layer 3 protocol.
+
+    + Data Link Layer (Layer 2):
+        - The Data Link Layer is responsible for reliable point-to-point and point-to-multipoint communication between devices on the same network segment.
+        - It addresses issues like framing (dividing data into frames), error detection and correction, MAC (Media Access Control) addressing, and flow control.
+        - Ethernet and Wi-Fi are examples of Layer 2 technologies.
+
+    + Physical Layer (Layer 1):
+        - The Physical Layer deals with the physical medium and hardware aspects of network communication.
+        - It defines specifications for cables, connectors, electrical signals, and physical transmission media.
+        - Functions include encoding and decoding of data bits, signal modulation, and transmission of raw binary data over the physical medium.
 
 * **IP/TCP Module:**
     ![Alt Text](tcp_ip.png)   
 
     The TCP/IP model is a set of protocols used for communication on the internet
     + Application layer:
+        - The Application Layer is the topmost layer and is responsible for user-level applications and services.
+        - It includes a wide range of protocols for various purposes, such as HTTP (for web browsing), FTP (for file transfer), SMTP (for email), and many others.
+        - Application-layer protocols define how data should be formatted, transmitted, and interpreted by applications.
+        - This layer combines functions from the OSI Session, Presentation, and Application Layers.
 
     + Transpot Layer:
+        - The Transport Layer ensures end-to-end communication between devices on different networks.
+        - It manages data segmentation, error checking, and flow control.
+        - Two key protocols at this layer are Transmission Control Protocol (TCP), which offers reliable, connection-oriented communication, and User Datagram Protocol (UDP), which provides
+            lightweight, connectionless communication.
+        - This layer is equivalent to the OSI Transport Layer.
 
     + Network Layer :
+        - The Internet Layer is responsible for routing data packets between different networks.
+        - It uses logical addressing (e.g., IP addresses) to identify devices on a network.
+        - The most prominent protocol at this layer is the Internet Protocol (IP), which includes both IPv4 and IPv6.
+        - This layer is similar to the OSI Network Layer.
 
     + Physical Layer : 
+        - The Link Layer deals with the physical and data link aspects of communication.
+        - It includes protocols that are specific to the hardware used for network communication, such as Ethernet or Wi-Fi.
+        - Its primary task is to transmit data over the local network, typically through MAC (Media Access Control) addresses.
+        - This layer is roughly equivalent to the OSI Data Link Layer and the Physical Layer combined.
 
 * **TCP vs UDP:**
-    + TCP:
-    + UDP:
+    + TCP is best used for direct communication in which a reliable connection is needed, such as web browsing, email, text messaging, and file transfers.
+    + UDP is best used for live and real-time data transmission when speed is more important than reliability.
 
-This project is a general practical exercise to let you discover networking.
+* **why we need subneting:**
+    Subnetting is a networking technique used to divide a larger network into smaller, more manageable segments 
+        called subnets or sub-networks. It is essential for several reasons:
+    Efficient IP Address Allocation, Reduced Broadcast Traffic, Enhanced Security, Improved Network Performance and 
+    Simplified Network Management.
 
-* **youtube playlists to whatch:**
+* **This README based on these playlists:**
     + Networking 101 series https://www.youtube.com/playlist?list=PLMTCTd3b8IdLkjpCLrxbFKTY6CTlaMPco
     + Free ccna playlist https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P
     + Networking tutorial https://www.youtube.com/playlist?list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW
