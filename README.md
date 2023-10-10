@@ -101,6 +101,7 @@ This project is a general practical exercise to let you discover networking.
         - Functions include encoding and decoding of data bits, signal modulation, and transmission of raw binary data over the physical medium.
 
 * **IP/TCP Module:**
+
     ![Alt Text](tcp_ip.png)   
 
     The TCP/IP model is a set of protocols used for communication on the internet
