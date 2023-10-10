@@ -85,6 +85,9 @@
     + 
 
 * **IP/TCP Module:**
+    ![Alt Text](tcp_ip.png)   
+
+    The TCP/IP model is a set of protocols used for communication on the internet
     + 
     + 
     + 
