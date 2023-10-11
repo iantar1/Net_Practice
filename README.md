@@ -124,7 +124,7 @@ This project is a general practical exercise to let you discover networking.
         - The most prominent protocol at this layer is the Internet Protocol (IP), which includes both IPv4 and IPv6.
         - This layer is similar to the OSI Network Layer.
 
-    + Physical Layer : 
+    + Link Layer (or Network Interface Layer): 
         - The Link Layer deals with the physical and data link aspects of communication.
         - It includes protocols that are specific to the hardware used for network communication, such as Ethernet or Wi-Fi.
         - Its primary task is to transmit data over the local network, typically through MAC (Media Access Control) addresses.
@@ -139,6 +139,10 @@ This project is a general practical exercise to let you discover networking.
         called subnets or sub-networks. It is essential for several reasons:
     Efficient IP Address Allocation, Reduced Broadcast Traffic, Enhanced Security, Improved Network Performance and 
     Simplified Network Management.
+
+* **TCP/IP model VS OSI model:**
+    + OSI model it used primaily used for reserch.
+    + TCP/IP model is a practical model devloped to meet the needs  of the original internet design.
 
 * **This README based on these playlists:**
     + Networking 101 series https://www.youtube.com/playlist?list=PLMTCTd3b8IdLkjpCLrxbFKTY6CTlaMPco
